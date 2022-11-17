@@ -16,11 +16,11 @@ public class Menus {
         Object seleccion = JOptionPane.showInputDialog(
             null,
             "Seleccione Ok",
-            "Convertidor de Voz Activa a Pasiva",
+            "Active to Passive Voice Converter",
             JOptionPane.QUESTION_MESSAGE,
             null,  // null para icono defecto
             new Object[] {"Pasado Perfecto"},
-                         "Deslice");
+                         "");
         
         if(seleccion == null){
             opcion=1;

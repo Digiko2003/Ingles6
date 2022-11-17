@@ -10,22 +10,22 @@ public class Iteradores {
     public void seleccion(){
         String[] options = {"Singular","Plural"};
         
-        x = JOptionPane.showOptionDialog(null, "A que grupo pertenece tu objeto",
+        x = JOptionPane.showOptionDialog(null, "What group does your object belong to?",
                 "Click a button",
                 JOptionPane.DEFAULT_OPTION, JOptionPane.INFORMATION_MESSAGE, null, options, options[0]);
         
     }
     public void pedirDatos(){
-        sujeto = JOptionPane.showInputDialog("Sujeto");
-        objeto = JOptionPane.showInputDialog("Objeto");
+        sujeto = JOptionPane.showInputDialog("Subject");
+        objeto = JOptionPane.showInputDialog("Object");
         seleccion();
                 if(x==1){
                     VtoB= "were";
                 }else{
                     VtoB= "was";
                 }
-        verbo = JOptionPane.showInputDialog("Verbo");
-        complemento = JOptionPane.showInputDialog("Complemento");
+        verbo = JOptionPane.showInputDialog("Verb");
+        complemento = JOptionPane.showInputDialog("Complement");
     }
     
     public void iterador1(){
@@ -40,7 +40,7 @@ public class Iteradores {
         break;
 
             case 9:
-                System.out.println("Saliendo...");
+                System.out.println("Exit...");
                 break;
 
         default:
