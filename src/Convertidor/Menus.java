@@ -15,18 +15,18 @@ public class Menus {
 
         Object seleccion = JOptionPane.showInputDialog(
             null,
-            "Seleccione Ok",
+            "Select Ok",
             "Active to Passive Voice Converter",
             JOptionPane.QUESTION_MESSAGE,
             null,  // null para icono defecto
-            new Object[] {"Pasado Perfecto"},
+            new Object[] {"Perfect past"},
                          "");
         
         if(seleccion == null){
             opcion=1;
 
                 }else{
-                    if (seleccion.equals("Pasado Perfecto")){//----------------
+                    if (seleccion.equals("Perfect past")){//----------------
                         opcion=1;
 
 
